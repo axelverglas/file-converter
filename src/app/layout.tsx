@@ -16,7 +16,7 @@ const fontSans = FontSans({
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="fr" suppressHydrationWarning>
       <head />
       <body
         className={cn(
@@ -25,7 +25,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         )}
       >
         <SiteHeader />
-        <main>{children}</main>
+        <main className="container">{children}</main>
         <SiteFooter />
       </body>
     </html>

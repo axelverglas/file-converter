@@ -1,3 +1,9 @@
+import Dropzone from "@/components/drop-zone";
+
 export default function Home() {
-  return <h1>test</h1>;
+  return (
+    <div className="py-12">
+      <Dropzone />
+    </div>
+  );
 }
